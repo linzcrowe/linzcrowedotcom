@@ -7,7 +7,7 @@ is the file you need to edit to change the look of the
 theme.
 ---------------------------------------------------- */
 /*=====================================================================
-@Template Name: HostHub Construction 
+@Template Name: HostHub Construction
 @Developed By: Naim Lasker
 Author E-mail: naimlasker@gmail.com
 
@@ -202,7 +202,7 @@ button:focus {
       .header_area .navbar .nav .nav-item .nav-link {
         font: 500 12px/100px "Roboto", sans-serif;
         text-transform: capitalize;
-        color: #000;
+        color: #AAA;
         padding: 0px;
         display: inline-block;
         font-size: 16px; }
@@ -316,7 +316,7 @@ button:focus {
   background-size: cover;
   background-repeat: no-repeat; }
 .banner-area .slide_bg1 {
-  background: url(../img/banner/banner-bg1.jpg); }
+  background: url(../img/banner/banner-bg-black-cloud.jpg); }
 .banner-area .slide_bg2 {
   background: url(../img/banner/banner-bg2.jpg); }
 .banner-area .slide_bg3 {
@@ -340,11 +340,11 @@ button:focus {
     border: 2px solid transparent;
     color: #fff; }
     .banner-content .primary-btn:hover {
-      background: transparent;
-      border-color: #e45447;
-      color: #000; }
+      background: #FF7B00;
+      border-color: #FF7B00;
+      color: #FFF; }
   .banner-content h1 {
-    color: #000;
+    color: #EEE;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px; }
@@ -355,7 +355,7 @@ button:focus {
     font-size: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    color: #000;
+    color: #EEE;
     margin-bottom: 30px; }
     @media (max-width: 991px) {
       .banner-content h3 {
